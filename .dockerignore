@@ -1,0 +1,6 @@
+# Ignore everything by default
+*
+
+# Add just what we need
+!.dockerignore
+!Dockerfile
