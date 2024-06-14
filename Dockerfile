@@ -6,7 +6,16 @@ RUN apt-get update && \
     apt-get install -y \
         openssh-server \
         sudo \
-        net-tools
+        net-tools \
+        vim \
+        htop \
+        golang \
+        strace \
+        curl \
+        iproute2 \
+        iptables \
+        traceroute \
+        nginx
 
 # Create the SSH directory
 RUN mkdir /var/run/sshd
